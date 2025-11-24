@@ -1,0 +1,23 @@
+name: noor_plus
+description: Noor+ — assistant de prière, qibla et coran (Full MVP)
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  http: ^0.14.0
+  google_mobile_ads: ^2.2.0
+  in_app_purchase: ^4.0.0
+  geolocator: ^9.0.2
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/noor_icon.png
